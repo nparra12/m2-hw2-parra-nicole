@@ -1,0 +1,11 @@
+
+.container-fluid{
+    display: flex;
+    padding: 0 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+

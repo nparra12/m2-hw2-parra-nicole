@@ -11,8 +11,13 @@
     <title>Bootstrap Practice</title>
   </head>
   <body>
-    <h1>Howdy, Gators!</h1>
-    <img src="img/hw2-image1.png" alt="bottom view of tower" title="tower"/>
+    <p class="text-center text-uppercase">Howdy, Gators.</p>
+
+    <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+
+    <!-- <img src="img/hw2-image1.png" alt="bottom view of tower" title="tower"/>
     <img src="img/hw2-image2.png" alt="cupcakes" title="cupcakes"/>
     <img src="img/hw2-image3.png" alt="graffiti" title="graffiti"/>
     <img src="img/hw2-image4.png" alt="beach view" title="beach"/>
@@ -20,10 +25,32 @@
     <img src="img/hw2-image6.png" alt="black headphones" title="headphones"/>
     <img src="img/hw2-image7.png" alt="island view with boats" title="island view"/>
     <img src="img/hw2-image8.png" alt="girl winking" title="girl winking"/>
-    <img src="img/hw2-image9.png" alt="rocks underwater" title="rocks underwater"/>
+    <img src="img/hw2-image9.png" alt="rocks underwater" title="rocks underwater"/> -->
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+          <div class="shadow col-md-9 white rounded"><img src="img/hw2-image1.png" alt="bottom view of tower" title="tower"/></div>
+          <div class="shadow col-6 col-md-2 white rounded"> <img src="img/hw2-image2.png" alt="cupcakes" title="cupcakes"/></div>
+        </div>
+      
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+          <div class="shadow col-6 col-md-4 white rounded"><img src="img/hw2-image3.png" alt="graffiti" title="graffiti"/></div>
+          <div class="shadow col-6 col-md-4 white rounded"><img src="img/hw2-image4.png" alt="beach view" title="beach"/></div>
+          <div class="shadow col-6 col-md-4 white rounded"><img src="img/hw2-image5.png" alt="brown tower" title="brown tower"/></div>
+        </div>
+      
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+          <div class="shadow col-3 white rounded"> <img src="img/hw2-image6.png" alt="black headphones" title="headphones"/></div>
+          <div class="shadow col-3 white rounded"><img src="img/hw2-image8.png" alt="girl winking" title="girl winking"/></div>
+          <div class="shadow col-3 white rounded"><img src="img/hw2-image7.png" alt="island view with boats" title="island view"/></div>
+          <div class="shadow col-3 white rounded"> <img src="img/hw2-image9.png" alt="rocks underwater" title="rocks underwater"/></div>
+        </div>
+      </div>
 
-
-    <!-- Optional JavaScript -->
+ 
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
